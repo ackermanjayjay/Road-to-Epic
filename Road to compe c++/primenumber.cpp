@@ -12,7 +12,7 @@ class Prime{
       //alias menggunakan ini jika public maka tak perlu
       //hanya jika private private variable
         n=nih;
-    
+    //Encapsuul berbentuk constructor
     }
     // Function to faktor 
        bool Primetest(int n)
