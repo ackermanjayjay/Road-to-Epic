@@ -4,11 +4,16 @@ using namespace std;
 class Faktor{
     public:
     int n, hasil;
-   
+   //Contructor 
+     //menginisiai nilai variable
     Faktor(int nih, int noh){
+      // initialize private variables
+      //alias menggunakan ini jika public maka tak perlu
+      //hanya jika private private variable
         n=nih;
         hasil=noh;
     }
+    // Function to faktor 
        int faktor(int n)
     {
         if(n>1)
